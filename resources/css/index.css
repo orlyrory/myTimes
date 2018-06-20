@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logo-nav {
+    display: flex;
+    
+}
+
+.nav-left {
+    align-self: center;
+}
+
+
+
+nav {
+    display: inline-flex;
+    
+}
+
+a .nav-items {
+    color: black;
+}
+
+.nav-items {
+    padding: 10px;
+}
