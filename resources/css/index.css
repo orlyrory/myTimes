@@ -51,9 +51,11 @@ nav {
   color: black;
 }
 
-.image-headline {
+.column.large .image-headline {
   display: flex;
     align-items: center;
+    width: 630px;
+    height: 300px;
 }
 
 #headline {
