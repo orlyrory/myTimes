@@ -29,25 +29,44 @@ nav {
     color: black;
 }
 
-.column {
+.content {
     display: flex;
 }
 
 .column.large {
-    display: flex;
     width: 630px;
 }
 
 .column.medium {
-    display: flex;
     width: 300px;
 }
 
 .column.small {
-    display: flex;
     width: 240px;
 }
 
-#main {
- 
+.blog-item {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
+
+.image-headline {
+  display: flex;
+    align-items: center;
+}
+
+#headline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.image-headline h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
